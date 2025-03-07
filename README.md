@@ -1,4 +1,4 @@
-## EquipViewer
+## Battlemod
 
 Purpose: To allow chat log customization.
 
@@ -8,7 +8,7 @@ As I do not own this addon, I cannot assist with issues regarding it.  Since thi
 
 There is a newer/current Ashita plugin version of `Battlemod` available that <ins>should</ins> be used for servers that are on a version <strong>NEWER</strong> than the end of 2019. The newer/current version, as well as to submit issues with the newer/current version, is located at:
 
-[https://github.com/ProjectTako/ffxi-addons/tree/master/equipviewer](https://gitlab.com/farmboy0/ashita-addons/-/tree/master/battlemod?ref_type=heads)
+[(https://gitlab.com/farmboy0/ashita-addons/-/tree/master/battlemod?ref_type=heads)](https://gitlab.com/farmboy0/ashita-addons/-/tree/master/battlemod?ref_type=heads)
 
 ## Setup Instructions
 
@@ -24,10 +24,10 @@ There is a newer/current Ashita plugin version of `Battlemod` available that <in
 
 ## Additional information:
 
-Original Author: Byrth
-Version: 3.23
-Date: 20/9/15
-Battlemod, packet version
+Original Author: Byrth<br>
+Version: 3.23<br>
+Date: 20/9/15<br>
+Battlemod, packet version<br>
 Abbreviation: /bm <command/utility>
 
 ### Commands:
@@ -76,7 +76,7 @@ help - shows a menu of these commands in game
 ### Settings Files:
 The settings files for battlemod are composed of 3 to 25 xml files (depending on how much you like unique filters). XML files can be opened with Notepad, edited, and saved safely. If you are going to "Save As..." an xml from Notepad, be sure to change "Text Documents (.txt)" to "All Files" file type and make sure the file ends in ".xml"
 
-data/settings.xml         - contains basic flags that control the features of the program.
-data/colors.xml           - contains all the color codes relevant to the program, which can be adjusted using colors from the colortext command.
-filters/filters.xml       - contains the chat filter settings and is explained more thoroughly therein.
+data/settings.xml         - contains basic flags that control the features of the program.<br>
+data/colors.xml           - contains all the color codes relevant to the program, which can be adjusted using colors from the colortext command.<br>
+filters/filters.xml       - contains the chat filter settings and is explained more thoroughly therein.<br>
 filters/filters-.xml - Several examples are provided, but these are specific filter files that will load for your individual jobs. You can use this to, for instance, make sure your healing jobs can always see damage taken (by unfiltering the  section or make sure your zerg jobs don't have to see the entire alliance's damage spam. The filter file is organized by actor, so if you wanted to filter by target you would have to go through each class of actor and change the setting that affected the given target.
